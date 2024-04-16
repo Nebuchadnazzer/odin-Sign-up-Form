@@ -24,11 +24,6 @@ body {
     flex-direction: column;
 }
 
-.row2 {
-    display: flex;
-    flex-direction: row;
-}
-
 form {
     display: flex;
     flex-direction: row;
