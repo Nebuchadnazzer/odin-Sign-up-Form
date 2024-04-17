@@ -6,6 +6,44 @@ body {
 
 .column1 {
     width: 33.33vw;
+    height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@font-face {
+    font-family: 'Norse-Bold';
+    src: url(https://cdn.statically.io/gh/TheOdinProject/theodinproject/efdc2888072f409e687d31dc580595dbe4fe0ff4/app/assets/fonts/Norse-Bold.otf);
+}
+
+.logo-name {
+    color: white;
+    font-family: 'Norse-Bold', sans-serif;  
+    font-size: 55px;
+    margin-top: 13px;
+}
+
+.logo img {
+    width: 55px;
+    height: auto;
+}
+
+.logo-container-background {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-container {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .column2 {
@@ -17,6 +55,12 @@ body {
 .row1,
 .row3 {
     background-color: #f2f2f2;;
+}
+
+.row1,
+.row2,
+.row3 {
+    padding-left: 3vw;
 }
 
 .form-group {
