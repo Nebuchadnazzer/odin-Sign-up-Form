@@ -76,12 +76,25 @@ body {
 
 .row2 {
     flex: 1;
-    box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.1);
+}
+
+.form-header {
+    padding-top: 1vw;
+}
+
+.form-container {
+    padding-top: 1vw;
+    padding-bottom: 3vw;
 }
 
 .form-group {
     display: flex;
     flex-direction: column;
+    padding-top: 1vw;
+}
+
+.form-column1 {
+    padding-right: 40px;
 }
 
 form {
